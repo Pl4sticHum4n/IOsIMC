@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38F5E0F627CE70DB002DC6EB /* IMC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F5E0F527CE70DB002DC6EB /* IMC.swift */; };
+		38F5E0F927CE718C002DC6EB /* CerebroCalculadora.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F5E0F827CE718C002DC6EB /* CerebroCalculadora.swift */; };
 		38FD457427C9286D003DFCCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FD457327C9286D003DFCCD /* AppDelegate.swift */; };
 		38FD457627C9286D003DFCCD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FD457527C9286D003DFCCD /* SceneDelegate.swift */; };
 		38FD457827C9286D003DFCCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FD457727C9286D003DFCCD /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		38F5E0F527CE70DB002DC6EB /* IMC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMC.swift; sourceTree = "<group>"; };
+		38F5E0F827CE718C002DC6EB /* CerebroCalculadora.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CerebroCalculadora.swift; sourceTree = "<group>"; };
 		38FD457027C9286D003DFCCD /* CalculadoraIMC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculadoraIMC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38FD457327C9286D003DFCCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38FD457527C9286D003DFCCD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				38FD457E27C9286F003DFCCD /* LaunchScreen.storyboard */,
 				38FD458127C9286F003DFCCD /* Info.plist */,
 				38FD458827C9298D003DFCCD /* SegundoViewController.swift */,
+				38F5E0F527CE70DB002DC6EB /* IMC.swift */,
+				38F5E0F827CE718C002DC6EB /* CerebroCalculadora.swift */,
 			);
 			path = CalculadoraIMC;
 			sourceTree = "<group>";
@@ -140,9 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38F5E0F927CE718C002DC6EB /* CerebroCalculadora.swift in Sources */,
 				38FD457827C9286D003DFCCD /* ViewController.swift in Sources */,
 				38FD457427C9286D003DFCCD /* AppDelegate.swift in Sources */,
 				38FD458927C9298D003DFCCD /* SegundoViewController.swift in Sources */,
+				38F5E0F627CE70DB002DC6EB /* IMC.swift in Sources */,
 				38FD457627C9286D003DFCCD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
